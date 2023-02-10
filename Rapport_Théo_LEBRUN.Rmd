@@ -1,0 +1,73 @@
+---
+title: "Rapport sur l'IA et les échecs"
+author: "Théo LEBRUN"
+date: "2023-02-09"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: IA2.bib
+csl: "isara-iso-690.csl"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## [Les débuts de l'IA]{.underline}
+
+L'apparition des intelligences artificielles (IA) peut être tracée à partir des années 1950 et 60, avec l'avènement de l'informatique et la mise en œuvre des premiers programmes de reconnaissance de la parole et de reconnaissance d'images. Cependant, ce n'est qu'au cours des dernières décennies, avec l'explosion de la puissance de calcul et la disponibilité de vastes quantités de données, que l'IA est devenue vraiment puissante et applicable à une grande variété de tâches complexes. Les progrès en matière de traitement du langage naturel et de reconnaissance d'images ont mené à des technologies telles que les assistants virtuels, les systèmes de reconnaissance de la voix, les systèmes de recommandation et les systèmes de conduite autonome. Il n'y a pas de personne ou d'entité unique à attribuer à la création des intelligences artificielles. C'est le résultat de décennies de travail et de contributions de nombreux chercheurs, ingénieurs et entreprises du monde entier. Des figures clés telles que John McCarthy, Marvin Minsky, Claude Shannon et Alan Turing ont joué un rôle important dans les débuts de l'IA en développant les fondements théoriques et en créant les premiers systèmes d'IA rudimentaires. Depuis, de nombreux autres chercheurs, ingénieurs et entreprises ont continué à travailler sur le développement de l'IA, ce qui a finalement mené à l'essor de l'IA moderne que nous connaissons aujourd'hui.[@noauthor_histoire_nodate]
+
+## [Le lien entre l'IA et les échecs]{.underline}
+
+L'apparition des supercalculateurs pour les échecs remonte à la fin des années 1980 et au début des années 1990, lorsque des ordinateurs de plus en plus puissants ont commencé à être utilisés pour jouer aux échecs de manière plus compétitive. En 1997, le supercalculateur Deep Blue d' IBM a battu le champion du monde Garry Kasparov dans une série de six parties, marquant une étape importante dans l'histoire des échecs et de l'IA.
+
+Depuis, les supercalculateurs ont continué à progresser et à devenir de plus en plus puissants, ce qui a mené à une amélioration significative de la qualité du jeu d'échecs informatique. Les systèmes d'IA modernes peuvent analyser des millions de coups possibles en quelques secondes et prendre des décisions basées sur des modèles complexes et des méthodes d'apprentissage automatique. Les systèmes les plus avancés peuvent jouer à un niveau proche de celui des meilleurs joueurs humains du monde, et sont souvent utilisés pour aider les joueurs professionnels à améliorer leur jeu. [@peng_comment_2020]
+
+## [L'apparition de Deep Blue]{.underline}
+
+Les informaticiens d'IBM s'intéressaient au jeu d'échecs depuis le début des années 1950. En 1985, un étudiant diplômé de l'université Carnegie Mellon, Feng-hsiung Hsu, a commencé à travailler sur son projet de thèse : une machine à jouer aux échecs qu'il a appelée ChipTest. Un de ses camarades de classe, Murray Campbell, a également travaillé sur ce projet et, en 1989, tous deux ont été embauchés par IBM Research. Là, ils ont poursuivi leurs travaux avec l'aide d'autres informaticiens, dont Joe Hoane, Jerry Brody et C. J. Tan. L'équipe a baptisé le projet Deep Blue. Le champion d'échecs humain a gagné en 1996 contre une version antérieure de Deep Blue ; le match de 1997 a été annoncé comme une "revanche".
+
+'Le champion et l'ordinateur s'affrontent à l'Equitable Center de New York, sous l'œil des caméras, de la presse et de millions de téléspectateurs. Les chances de victoire de Deep Blue n'étaient pas certaines, mais la science était solide. Les ingénieurs d'IBM savent que leur machine peut explorer jusqu'à 200 millions de positions d'échecs possibles par seconde. Le grand maître d'échecs remporte la première partie, Deep Blue prend la suivante, et les deux joueurs font match nul dans les trois parties suivantes. La sixième partie met fin au match avec une défaite écrasante du champion par Deep Blue
+
+L'issue du match a fait la une des journaux du monde entier et a permis à un large public de mieux comprendre l'informatique de grande puissance. Le match de 1997 ne s'est pas déroulé sur une scène standard, mais plutôt dans un petit studio de télévision. Le public a regardé le match sur des écrans de télévision dans un théâtre situé au sous-sol du bâtiment, plusieurs étages en dessous de l'endroit où le match a effectivement eu lieu. Le théâtre pouvait accueillir environ 500 personnes et a affiché complet pour chacun des six matchs. L'attention médiatique accordée à Deep Blue a généré plus de trois milliards d'impressions dans le monde entier'. [@noauthor_ibm100_2012]
+
+\
+
+![Garry Kasparov contre DeepBlue](C:%5CUsers%5Clebrt%5CDocuments%5CR%20Studio%5CDeepBlue1.png)
+
+## [L'impact de Deep Blue sur l'évolution de l'IA]{.underline}
+
+Deep Blue a eu un impact sur l'informatique dans de nombreux secteurs différents. Programmé pour résoudre le jeu d'échecs, complexe et stratégique, il a permis aux chercheurs d'explorer et de comprendre les limites du traitement massivement parallèle. Cette recherche a donné aux développeurs un aperçu de la façon dont ils pourraient concevoir un ordinateur pour s'attaquer à des problèmes complexes dans d'autres domaines, en utilisant des connaissances approfondies pour analyser un plus grand nombre de solutions possibles. L'architecture utilisée dans Deep Blue a été appliquée à la modélisation financière, notamment aux tendances du marché et à l'analyse des risques, à l'exploration de données (découverte de relations et de modèles cachés dans de grandes bases de données) et à la dynamique moléculaire, un outil précieux pour la découverte et le développement de nouveaux médicaments.[@noauthor_ibm100_2012]
+
+## [Qu'est-ce que le machine learning ?]{.underline}
+
+Pour comprendre comment cela est possible, il faut nous penser rapidement sur ce qu'est le machine learning, un des principes fondateurs de l'évolution des IA. Le machine learning est un sous-domaine de l'intelligence artificielle qui se concentre sur la construction d'algorithmes qui peuvent apprendre à partir de données et faire des prédictions ou des décisions sans être explicitement programmées pour effectuer une tâche spécifique. En d'autres termes, le machine learning permet aux ordinateurs de développer leur propre logique en fonction des données avec lesquelles ils sont formés, plutôt que d'être programmés avec une logique prédéterminée.
+
+Il existe plusieurs types de techniques de machine learning, telles que l'apprentissage supervisé, non supervisé et renforcé, qui sont utilisées pour résoudre différents types de problèmes. Le machine learning est utilisé dans de nombreuses applications, telles que la reconnaissance de la parole, la classification d'images, la prédiction de la valeur d'une propriété, la recommandation de produits et bien d'autres encore. [@noauthor_machine_2020]
+
+## [Et maintenant l'utilisation de l'IA]{.underline}
+
+De plus en plus d'entreprises et de gouvernements investissent dans l'IA, ce qui a entraîné une augmentation de la recherche et du développement dans ce domaine. L'IA est actuellement utilisée dans de nombreuses applications telles que la reconnaissance de la voix pour les systèmes de commande vocale, les recommandations de produits en ligne et les diagnostics médicaux.
+
+Cependant, avec l'augmentation de la puissance de l'IA, il y a également des préoccupations croissantes quant à ses impacts éthiques et sociaux, notamment la possibilité d'une perte d'emplois et les implications pour la vie privée et la sécurité. Les gouvernements et les entreprises travaillent actuellement sur des cadres éthiques pour guider le développement de l'IA de manière responsable.
+
+En résumé, l'intelligence artificielle a connu une évolution rapide ces dernières années grâce aux avancées dans les domaines de l'apprentissage profond et de l'apprentissage par renforcement, mais il reste encore beaucoup de défis à surmonter pour que l'IA puisse être utilisée de manière responsable et éthique.
+
+| Année | Prévision du chiffre d'affaire (en millions) |
+|-------|----------------------------------------------|
+| 2016  | 93                                           |
+| 2017  | 221                                          |
+| 2018  | 427                                          |
+| 2019  | 752                                          |
+| 2020  | 1254                                         |
+| 2021  | 2000                                         |
+| 2022  | 3047                                         |
+| 2023  | 4415                                         |
+| 2024  | 6059                                         |
+| 2025  | 7876                                         |
+
+\
+
+![Évolution du budget](C:%5CUsers%5Clebrt%5CDocuments%5CR%20Studio%5C8618.png) [@noauthor_infographie_2017]
+
+#### Bibliographie
