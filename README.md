@@ -1,3 +1,5 @@
 # IsaraFirstRepo
-C'est le fichier test du readme
-Lisez moi soyez sympa !
+Bienvenue dans mon readme
+Vous pourrez trouver mon travail de synthèse personnel ainsi que les premiers tests qu nous avons effectuer
+Bonne lecture !
+
